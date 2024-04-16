@@ -126,7 +126,6 @@ int printf(const char *restrict format, ...);
                     char *: "%s", \
                     char const *: "%s", \
                     void *: "%p", \
-         char[sizeof(arg)]: "%s", \
                    default: "<unknown>" \
 )
 
